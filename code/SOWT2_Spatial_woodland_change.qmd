@@ -1,0 +1,20 @@
+
+# Title
+
+## Authors: VB, EM
+
+### The question(s)
+
+1. Is woodland loss compromising gains from creation?
+  a. What's causing loss? 
+  b. Is restock actually replacing all loss?
+  c. What are the time lags associated with this?
+
+### Data required
+
+* NFI - spatial
+* Woodland loss (GFW) - spatial
+* Restocking data - Forestry Statistics - not spatial, Subcompartment Database (SCDB) - spatial, felling licenses - unsure
+* Creation data - Forestry Statistics - not spatial, grant scheme data - spatial
+
+### Rough method steps...
