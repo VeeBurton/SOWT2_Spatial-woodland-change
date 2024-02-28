@@ -1,0 +1,42 @@
+project:
+  type: book
+
+book:
+  title: "Land use change: woods and trees"
+  author: "Vanessa Burton and Ewan McHenry"
+  date: today
+  search: true
+  date-format: "D MMM, YYYY"
+  downloads: [pdf, epub]
+  chapters:
+    - index.qmd
+
+number-depth: 0
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    fig-width: 6
+    fig-asp: 0.618
+    reference-location: margin
+    anchor-sections: true
+    embed-resources: FALSE
+    
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+prefer-html: true
+
+execute:
+  echo: false
+  warning: false
+
+css: style.css
+
+comments:
+  hypothesis: 
+    theme: clean
