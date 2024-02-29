@@ -10,6 +10,7 @@ book:
   downloads: [pdf, epub]
   chapters:
     - index.qmd
+    - data_inventory.qmd
 
 number-depth: 0
 
